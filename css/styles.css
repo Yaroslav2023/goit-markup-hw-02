@@ -146,3 +146,36 @@ body {
     line-height: 1.5;
     color: #E7E9FC;
 }
+
+/*================== Page PORTFOLIO ======================= */
+
+.buton-filter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--blue-clr);
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+
+.buton-filter:hover,
+.buton-filter:focus {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: var(--action-clr);
+}
+
+.project-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--secondary-clr-text);
+}
+
+.type-project {
+    color: var(--primary-clr-text);
+}
